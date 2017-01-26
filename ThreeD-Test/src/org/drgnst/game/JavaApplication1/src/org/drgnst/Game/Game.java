@@ -22,9 +22,9 @@ import org.drgnst.Game.gfx.Screen;
 public class Game extends Canvas implements Runnable{
     public static final long serialVersionUID = 1L;
     
-    public static final int WIDTH = 160;
+    public static final int WIDTH = 640;
     public static final int HEIGHT = WIDTH * 3 / 4;
-    public static final int SCALE = 4;
+    public static final int SCALE = 1;
     public static final String TITLE = "Perspective";
     public static final double FRAME_LIMIT = 60.0;
     public static final BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
